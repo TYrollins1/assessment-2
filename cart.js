@@ -56,11 +56,11 @@ console.log(summedPrice)
 
 //CODE HERE
 
-function calcFinalPrice(cartTotal, couponValue, tax){
-    summedPrice = cartTotal + couponValue - .15 + tax * 1.06
-}
+// const calcFinalPrice = cart.map(function(cartTotal, couponValue, tax){
+//     return cartTotal - couponValue * (1 + .06)
+// })
 
-console.log(calcFinalPrice())
+// console.log(calcFinalPrice)
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -84,7 +84,7 @@ console.log(calcFinalPrice())
 
 /*
     TEXT ANSWER HERE
-
+    
 */
 
 /*

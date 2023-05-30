@@ -24,11 +24,11 @@
 //CODE HERE
 
 const greetUser = ((username) => {
-    username = "ty"
+    this.username = username    
     return `Welcome back ${username}`
 })
 
-console.log(greetUser())
+console.log(greetUser('Ty'))
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -54,12 +54,12 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
 
-function canWeDeliver(zipCode){
-    for(i = 0; i < deliveryAreaZipCodes.length; i++){
-        return `We can deliver`
+const canWeDeliver = (zipCode) => {
+    for(let i = 0; i < deliveryAreaZipCodes.length; i++){
+        
     }
-    return `You're to far`
 }
+
 
 
 /* 

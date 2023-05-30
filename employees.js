@@ -21,13 +21,19 @@
 
 //CODE HERE
 
-const Employee = [{
-    name: "Ty",
-    shifts: "Ninth"
-}]
-const getSchedule = Employee.name.shift.toUpperCase()
+class Employee{
+    constructor(name, shifts){
+        this.name = name;
+        this.shifts = shifts
+    }
+    getSchedule(name, shifts){
+        console.log(`${this.name} works on ${this.shift}`)
+    }
+}
 
-console.log(Employee)
+let employee1 = new Employee('Ty', '1pm')
+
+employee1.getSchedule()
 
 /*
     Create a new instance of your class.

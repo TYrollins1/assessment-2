@@ -73,9 +73,11 @@ console.log(pizza.tags[1])
 
 //CODE HERE
 
-pizza.price = 10
+let newPrice = pizza.price
 
-console.log(pizza.price)
+newPrice = 17
+
+console.log(newPrice)
 /*
     Fourth, and last, destructure the category
     property.
@@ -85,9 +87,9 @@ console.log(pizza.price)
 
 //CODE HERE
 
-pizza.property = `Ty's bathroom`
+let noCategory = pizza.category
 
-console.log(pizza)
+console.log(noCategory)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -112,7 +114,7 @@ let foodArr = [{
     tags: [`Fat free`, `Fresh dough`, `Gluten free`]
 
 }]
-console.log(foodArr)
+
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -128,9 +130,10 @@ console.log(foodArr)
 
 //CODE HERE
 
-const filteredFood = foodArr.filter.food((callback) => {
-
+const foodTags = foodArr.filter(function(element){
 })
+
+
 
 
 
